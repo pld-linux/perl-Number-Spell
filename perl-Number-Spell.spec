@@ -20,11 +20,11 @@ Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Number::Spell
 Summary(zh_CN):	Number::Spell Perl Ä£¿é
 Name:		perl-Number-Spell
 Version:	0.04
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -41,7 +41,8 @@ tylko liczby ca³kowite.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -55,8 +56,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes 
-%{perl_sitelib}/Number/Spell.pm
-%dir %{perl_sitelib}/auto/Number
-%dir %{perl_sitelib}/auto/Number/Spell
-%{perl_sitelib}/auto/Number/Spell/autosplit.ix
+%{perl_vendorlib}/Number/Spell.pm
+%dir %{perl_vendorlib}/auto/Number
+%dir %{perl_vendorlib}/auto/Number/Spell
+%{perl_vendorlib}/auto/Number/Spell/autosplit.ix
 %{_mandir}/man3/*
