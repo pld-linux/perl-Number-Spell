@@ -3,8 +3,8 @@
 %define		pdir	Number
 %define		pnam	Spell
 
-Summary:	Number-Spell perl module
-Summary(pl):	Modu³ perla Number-Spell
+Summary:	Number::Spell perl module
+Summary(pl):	Modu³ perla Number::Spell
 Name:		perl-%{pdir}-%{pnam}
 Version:	0.04
 Release:	2
