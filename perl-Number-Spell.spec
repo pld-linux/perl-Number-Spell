@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define		pdir	Number
-%define		pnam	Spell
+%define	pdir	Number
+%define	pnam	Spell
 Summary:	Number::Spell Perl module
 Summary(cs):	Modul Number::Spell pro Perl
 Summary(da):	Perlmodul Number::Spell
