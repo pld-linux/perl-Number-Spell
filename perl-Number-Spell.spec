@@ -20,7 +20,7 @@ Summary(uk):	Модуль для Perl Number::Spell
 Summary(zh_CN):	Number::Spell Perl дё©И
 Name:		perl-Number-Spell
 Version:	0.04
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
