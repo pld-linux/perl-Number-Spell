@@ -43,7 +43,7 @@ tylko liczby ca³kowite.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
@@ -56,7 +56,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc Changes 
+%doc Changes
 %{perl_vendorlib}/Number/Spell.pm
 %dir %{perl_vendorlib}/auto/Number
 %dir %{perl_vendorlib}/auto/Number/Spell
