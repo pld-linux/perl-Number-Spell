@@ -10,7 +10,7 @@ Summary(fr):	Module Perl Number::Spell
 Summary(it):	Modulo di Perl Number::Spell
 Summary(ja):	Number::Spell Perl ¥â¥¸¥å¡¼¥ë
 Summary(ko):	Number::Spell ÆÞ ¸ðÁÙ
-Summary(no):	Perlmodul Number::Spell
+Summary(nb):	Perlmodul Number::Spell
 Summary(pl):	Modu³ Perla Number::Spell
 Summary(pt):	Módulo de Perl Number::Spell
 Summary(pt_BR):	Módulo Perl Number::Spell
