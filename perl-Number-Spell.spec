@@ -6,22 +6,22 @@
 %define		pdir	Number
 %define		pnam	Spell
 Summary:	Number::Spell Perl module
-Summary(cs):	Modul Number::Spell pro Perl
-Summary(da):	Perlmodul Number::Spell
-Summary(de):	Number::Spell Perl Modul
-Summary(es):	Módulo de Perl Number::Spell
-Summary(fr):	Module Perl Number::Spell
-Summary(it):	Modulo di Perl Number::Spell
-Summary(ja):	Number::Spell Perl ¥â¥¸¥å¡¼¥ë
-Summary(ko):	Number::Spell ÆŞ ¸ğÁÙ
-Summary(nb):	Perlmodul Number::Spell
-Summary(pl):	Modu³ Perla Number::Spell
-Summary(pt):	Módulo de Perl Number::Spell
-Summary(pt_BR):	Módulo Perl Number::Spell
-Summary(ru):	íÏÄÕÌØ ÄÌÑ Perl Number::Spell
-Summary(sv):	Number::Spell Perlmodul
-Summary(uk):	íÏÄÕÌØ ÄÌÑ Perl Number::Spell
-Summary(zh_CN):	Number::Spell Perl Ä£¿é
+Summary(cs.UTF-8):   Modul Number::Spell pro Perl
+Summary(da.UTF-8):   Perlmodul Number::Spell
+Summary(de.UTF-8):   Number::Spell Perl Modul
+Summary(es.UTF-8):   MÃ³dulo de Perl Number::Spell
+Summary(fr.UTF-8):   Module Perl Number::Spell
+Summary(it.UTF-8):   Modulo di Perl Number::Spell
+Summary(ja.UTF-8):   Number::Spell Perl ãƒ¢ã‚¸ãƒ¥ãƒ¼ãƒ«
+Summary(ko.UTF-8):   Number::Spell í„ ëª¨ì¤„
+Summary(nb.UTF-8):   Perlmodul Number::Spell
+Summary(pl.UTF-8):   ModuÅ‚ Perla Number::Spell
+Summary(pt.UTF-8):   MÃ³dulo de Perl Number::Spell
+Summary(pt_BR.UTF-8):   MÃ³dulo Perl Number::Spell
+Summary(ru.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Number::Spell
+Summary(sv.UTF-8):   Number::Spell Perlmodul
+Summary(uk.UTF-8):   ĞœĞ¾Ğ´ÑƒĞ»ÑŒ Ğ´Ğ»Ñ Perl Number::Spell
+Summary(zh_CN.UTF-8):   Number::Spell Perl æ¨¡å—
 Name:		perl-Number-Spell
 Version:	0.04
 Release:	5
@@ -38,9 +38,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This Perl module provides functionality for spelling out numbers.
 Currently only integers are supported.
 
-%description -l pl
-Ten modu³ daje mo¿liwo¶æ zapisu s³ownego liczb. Na razie obs³uguje
-tylko liczby ca³kowite.
+%description -l pl.UTF-8
+Ten moduÅ‚ daje moÅ¼liwoÅ›Ä‡ zapisu sÅ‚ownego liczb. Na razie obsÅ‚uguje
+tylko liczby caÅ‚kowite.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
