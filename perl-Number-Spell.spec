@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Number
 %define		pnam	Spell
+%include	/usr/lib/rpm/macros.perl
 Summary:	Number::Spell Perl module
 Summary(cs.UTF-8):	Modul Number::Spell pro Perl
 Summary(da.UTF-8):	Perlmodul Number::Spell
@@ -29,8 +29,9 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	e30521cc7ff7677428794f46aaa37a57
-BuildRequires:	rpm-perlprov >= 4.1-13
+URL:		http://search.cpan.org/dist/Number-Spell/
 BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
