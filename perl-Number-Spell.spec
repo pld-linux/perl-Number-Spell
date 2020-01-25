@@ -4,7 +4,6 @@
 
 %define		pdir	Number
 %define		pnam	Spell
-%include	/usr/lib/rpm/macros.perl
 Summary:	Number::Spell Perl module
 Summary(cs.UTF-8):	Modul Number::Spell pro Perl
 Summary(da.UTF-8):	Perlmodul Number::Spell
