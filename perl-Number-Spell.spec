@@ -23,7 +23,7 @@ Summary(uk.UTF-8):	Модуль для Perl Number::Spell
 Summary(zh_CN.UTF-8):	Number::Spell Perl 模块
 Name:		perl-Number-Spell
 Version:	0.04
-Release:	6
+Release:	7
 License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
